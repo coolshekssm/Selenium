@@ -23,6 +23,6 @@ public class DataProviderConcept {
         cd.findElement(By.xpath("//input[@name = 'email']")).sendKeys(un);
         cd.findElement(By.name("password")).sendKeys(pw);
         cd.findElement(By.xpath("//button[@type = 'submit']")).click();
-
+        cd.quit();
     }
 }
